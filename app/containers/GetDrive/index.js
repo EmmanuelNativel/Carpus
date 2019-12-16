@@ -13,11 +13,11 @@ import List from './List';
 import ListItem from './ListItem';
 import ListItemTitle from './ListItemTitle';
 
-export default function FeaturePage() {
+export default function GetDrive() {
   return (
     <div>
       <Helmet>
-        <title>Feature Page</title>
+        <title>GetDrive Page</title>
         <meta
           name="description"
           content="Feature page of React.js Boilerplate application"
