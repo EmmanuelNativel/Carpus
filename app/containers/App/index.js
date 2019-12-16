@@ -43,7 +43,8 @@ export default function App() {
       <Menu />
       <Header />
       <Switch>
-        <Route exact path="/AddDrive" component={AddDrive} />
+        <Route exact path="/" component={NotFoundPage} />
+        <Route path="/AddDrive" component={AddDrive} />
         <Route path="/GetDrive" component={GetDrive} />
         <Route path="" component={NotFoundPage} />
       </Switch>
